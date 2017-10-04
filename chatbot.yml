@@ -1,0 +1,15 @@
+---
+gid_all: &public
+  - Bedzie oficjalna komunikacja!
+  - Wystaw spotkanie.
+ewelina:
+  - *public
+  - Whateva...
+  - Chyba potrzebuje wytlumaczenia jeszcze raz.
+  - Mozesz to opisac w mailu ... po angielsku?
+  - Znajdz jakis wolny slot, pogadamy?
+andrzej:
+  - *public
+  - Nie akceptuje tego!
+  - Bede Cie aktualizowal.
+  - To nie jest temat tej rozmowy, bo troche zbaczamy z tematu.
