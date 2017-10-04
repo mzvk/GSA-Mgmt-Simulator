@@ -9,10 +9,10 @@
 -----------------------------------------------
 
 Files:
-* chatbot.sh    - core script file
-* chatbot.yml   - YAML file containing all of bots expresions 
-* data.pl       - perl script handling parsing and flattening of YAML data file
-* chatbot.users - mapping between linux users and full name
-* chatbot.bots  - mapping between bot ID and full bot name
+* `chatbot.sh`    - core script file
+* `chatbot.yml`   - YAML file containing all of bots expresions 
+* `data.pl`       - perl script handling parsing and flattening of YAML data file
+* `chatbot.users` - mapping between linux users and full name
+* `chatbot.bots`  - mapping between bot ID and full bot name
 
 -----------------------------------------------
