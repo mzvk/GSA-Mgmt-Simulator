@@ -5,7 +5,7 @@ use warnings;
 use YAML qw(LoadFile);
 
 sub getYAML {
-  open(my $yfh, shift) || die "[ERROR] Couldn't open sysObjectID mapping: $!\n";
+  open(my $yfh, shift) || die "[ERROR] Couldn't open YAML file: $!\n";
   return LoadFile($yfh);
 }
 
