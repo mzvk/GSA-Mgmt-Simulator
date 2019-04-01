@@ -71,7 +71,7 @@ read -p "Type a message: " userin
 echo -e "-----------\n $USER `date "+%H:%M"`\n $userin"
 echo -e "\n $BOTNAME is typing a message..."
 sleep 1
-echo -e "\e[1A $BOTNAME `date "+%H:%M"`                                               \n `perl /tftpboot/chatbot/data.pl /tftpboot/chatbot/chatbot.yml $BOTID | tail -n 1`"
+echo -e "\e[1A $BOTNAME `date "+%H:%M"`                                               \n `perl $PWD/data.pl $PWD/chatbot.yml $BOTID | tail -n 1`"
 sleep 1
 echo -e "\nThis conversation is saved in the Conversations tab in Lync and in the Conversation History folder in Outlook."
 while true
