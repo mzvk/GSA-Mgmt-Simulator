@@ -23,8 +23,8 @@ function fromfile {
 declare -A BOTS
 declare -A WIARA
 
-fromfile "/tftpboot/chatbot/chatbot.users" "WIARA"
-fromfile "/tftpboot/chatbot/chatbot.bots" "BOTS"
+fromfile "$PWD/chatbot.users" "WIARA"
+fromfile "$PWD/chatbot.bots" "BOTS"
 
 if [[ ${WIARA[`whoami`]} ]]; then
   USER=${WIARA[`whoami`]}
