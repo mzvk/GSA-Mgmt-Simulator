@@ -29,4 +29,4 @@ die "invalid number of arguments\n" if(scalar @ARGV > 2 or scalar @ARGV <= 0);
 
 my $feed = getYAML($ARGV[0]);
 $feed = flatten($feed);
-print $feed->{$ARGV[1]}->[int(rand(scalar @{$feed->{$ARGV[1]}}))];
+print exists $feed->{$ARGV[1]} ? $feed->{$ARGV[1]}->[int(rand(scalar @{$feed->{$ARGV[1]}}))] : "-- bot text missing [wrong bot id?] --"
